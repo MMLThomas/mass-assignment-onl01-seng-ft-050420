@@ -8,6 +8,6 @@ class Person
   
   def initiliztion(attributes)
     attributes.each{|key, value| self.send(("#{key}="), value)
-    
+  end
     
 end
